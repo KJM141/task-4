@@ -1,0 +1,36 @@
+/* UserTable.css */
+
+/* Style the user table container */
+.UserTable {
+    text-align: center;
+  }
+  
+  /* Style the table header row */
+  .UserTable table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .UserTable th {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Style the table rows and cells */
+  .UserTable td, .UserTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* Style the table rows */
+  .UserTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the table rows on hover */
+  .UserTable tr:hover {
+    background-color: #e0e0e0;
+  }
+  
